@@ -7,7 +7,7 @@ def fetch_data_from_mysql():
     mysql_config = {
         'host': 'localhost',
         'user': 'root',
-        'password': DB_PASSWORD,  # Ensure DB_PASSWORD is defined in your environment
+        'password': 'root',  
         'database': 'etl_example'
     }
 
